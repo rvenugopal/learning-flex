@@ -1,0 +1,28 @@
+body {
+  background-color: honeydew;
+}
+
+.Aligner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+}
+
+.item {
+  max-width: 50%;
+  flex-grow: 1;
+}
+
+.top {
+  align-self: flex-start;
+}
+
+.bottom {
+  align-self: flex-end;
+}
+
+.fixed {
+  flex: none;
+  max-width: 50%;
+}
